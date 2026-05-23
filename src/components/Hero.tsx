@@ -74,7 +74,7 @@ export default function Hero() {
             }}
           >
             <img
-              src="/1768796069071.jpg.jpeg"
+              src={`${import.meta.env.BASE_URL}1768796069071.jpg.jpeg`}
               alt="Jebin Joel"
               className="w-full h-full object-cover"
             />
